@@ -1,0 +1,27 @@
+
+body{
+   /* background-color: rgb(166, 197, 197); */
+    background-color: #e2cf90;
+}
+
+h1{
+    color: rgb(7, 23, 248);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Terminator Real NFI V1 V2";
+}
+
+
+@font-face{
+
+    font-family:'Terminator Real NFI V1 V2';
+    src: url('../fonts/Terminator\ Real\ NFI\ V1\ V2.eot');
+    src: url('../fonts/Terminator\ Real\ NFI\ V1\ V2.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Terminator\ Real\ NFI\ V1\ V2.woff') format('woff'),
+         url('../fonts/Terminator\ Real\ NFI\ V1\ V2.woff2') format('woff2'),
+         url('../fonts/Terminator\ Real\ NFI\ V1\ V2.ttf') format('truetype'),
+         url('../fonts/Terminator\ Real\ NFI\ V1\ V2.svg#Terminator Real NFI V1 V2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
